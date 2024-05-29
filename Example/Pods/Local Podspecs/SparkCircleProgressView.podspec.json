@@ -1,0 +1,28 @@
+{
+  "name": "SparkCircleProgressView",
+  "version": "0.1.0",
+  "summary": "A short description of SparkCircleProgressView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SparkeXHApp/SparkCircleProgressView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SparkeXHApp": "sfhery@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/SparkeXHApp/SparkCircleProgressView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SparkCircleProgressView/Classes/**/*",
+  "resource_bundles": {
+    "SparkCircleProgressView": [
+      "SparkCircleProgressView/Assets/*.png"
+    ]
+  },
+  "static_framework": true
+}

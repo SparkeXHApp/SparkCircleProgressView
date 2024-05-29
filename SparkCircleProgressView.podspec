@@ -32,11 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SparkCircleProgressView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SparkCircleProgressView' => ['SparkCircleProgressView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SparkCircleProgressView' => ['SparkCircleProgressView/Assets/*.png']
+  }
+  s.static_framework = true
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

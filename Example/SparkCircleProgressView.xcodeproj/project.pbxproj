@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		34AC529CA5FEA2568D557179 /* Pods-SparkCircleProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkCircleProgressView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SparkCircleProgressView_Tests/Pods-SparkCircleProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4CDD1272426F3964303A2DAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4CDD1272426F3964303A2DAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		529A2A10B78A8C577751D497 /* Pods-SparkCircleProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkCircleProgressView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SparkCircleProgressView_Tests/Pods-SparkCircleProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SparkCircleProgressView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkCircleProgressView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		8F5309640756B5D02CD0956D /* Pods_SparkCircleProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkCircleProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9626D042E94F43FCCC075BA3 /* Pods-SparkCircleProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkCircleProgressView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SparkCircleProgressView_Example/Pods-SparkCircleProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE695E39505AA24EA539ABEA /* Pods_SparkCircleProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkCircleProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0A7AAEF57FC0D426714C0EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B0A7AAEF57FC0D426714C0EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B1B8311BE29A88D98BB1DB27 /* Pods-SparkCircleProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkCircleProgressView_Example.release.xcconfig"; path = "Target Support Files/Pods-SparkCircleProgressView_Example/Pods-SparkCircleProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D2F0B9B4BE471683A1CFCCA0 /* SparkCircleProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SparkCircleProgressView.podspec; path = ../SparkCircleProgressView.podspec; sourceTree = "<group>"; };
+		D2F0B9B4BE471683A1CFCCA0 /* SparkCircleProgressView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SparkCircleProgressView.podspec; path = ../SparkCircleProgressView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				529A2A10B78A8C577751D497 /* Pods-SparkCircleProgressView_Tests.debug.xcconfig */,
 				34AC529CA5FEA2568D557179 /* Pods-SparkCircleProgressView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4289F7E990A3B303B77CD19B /* [CP] Embed Pods Frameworks */,
+				963CE6E9F1A9A9F38BEA978D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FNZ84EXWE9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FNZ84EXWE9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,24 +265,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4289F7E990A3B303B77CD19B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SparkCircleProgressView_Example/Pods-SparkCircleProgressView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SparkCircleProgressView/SparkCircleProgressView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SparkCircleProgressView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkCircleProgressView_Example/Pods-SparkCircleProgressView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E0EA26B57267E62F131612E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +285,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963CE6E9F1A9A9F38BEA978D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkCircleProgressView_Example/Pods-SparkCircleProgressView_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SparkCircleProgressView/SparkCircleProgressView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SparkCircleProgressView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkCircleProgressView_Example/Pods-SparkCircleProgressView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DFC86BD917681F89B5615C59 /* [CP] Check Pods Manifest.lock */ = {
@@ -497,7 +499,9 @@
 			baseConfigurationReference = 9626D042E94F43FCCC075BA3 /* Pods-SparkCircleProgressView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				INFOPLIST_FILE = SparkCircleProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +516,9 @@
 			baseConfigurationReference = B1B8311BE29A88D98BB1DB27 /* Pods-SparkCircleProgressView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				INFOPLIST_FILE = SparkCircleProgressView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 529A2A10B78A8C577751D497 /* Pods-SparkCircleProgressView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +542,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +556,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34AC529CA5FEA2568D557179 /* Pods-SparkCircleProgressView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
